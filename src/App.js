@@ -7,7 +7,7 @@ const App = () => {
       <div className='header'>
         Calory counter
       </div>
-      <div className='picture'>
+      <div className='pictures'>
         <img src='https://upload.wikimedia.org/wikipedia/commons/6/62/Patrick_Schwarzenegger_TIFF_2012.jpg' />
       </div>
       <div className='counter'>

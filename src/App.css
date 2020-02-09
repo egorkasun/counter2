@@ -1,8 +1,3 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-
 body{
   text-align: center;
 }
@@ -17,7 +12,12 @@ body{
 
   grid-template-columns: 600px 1fr 400px;
   grid-template-rows: 150px 1fr 200px;
+  grid-gap: 5px;
   min-height: 100vh;
+}
+
+.app-wrapper > div {
+  border-radius: 30px;
 }
 
 .header {
@@ -25,12 +25,16 @@ body{
   background-color: aquamarine;
 }
 
-.picture {
+.pictures {
   grid-area: picture;
+  overflow: hidden;
 }
-/*.picture img {
-  width: 500px;
-}*/
+.pictures img {
+  width: 100%;
+  display: block;
+  padding: 0;
+  }
+
 .counter {
   grid-area: counter;
   background-color: rgb(77, 8, 238); 
@@ -43,5 +47,5 @@ body{
 
 .chat {
   grid-area: chat;
-  background-color: cornsilk;
+  background-color: rgb(35, 128, 204);
 }
