@@ -47,5 +47,5 @@ body{
 
 .chat {
   grid-area: chat;
-  background-color: rgb(35, 128, 204);
+  background-color: rgb(204, 35, 196);
 }
